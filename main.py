@@ -4,14 +4,11 @@ import os
 import tempfile
 import tkinter as TK
 import json
-import ctypes
 from tkinter import *
 from tkinter import filedialog as fd
 from tkinter.messagebox import showinfo, askokcancel
 from tkinter import *
 from tkinter.ttk import Treeview
-
-ctypes.windll.user32.ShowWindow( ctypes.windll.kernel32.GetConsoleWindow(), 0 )
 
 hdata1 = "\
 #pragma once\n\
